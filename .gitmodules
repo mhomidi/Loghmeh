@@ -1,3 +1,6 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://gitlab.com/alexomidi/loghmeh-front.git
+[submodule "Backend"]
+	path = Backend
+	url = https://gitlab.com/alexomidi/loghmeh-ca-6.git
