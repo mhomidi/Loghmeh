@@ -19,7 +19,7 @@ services:
 
   client:
     build:
-      context: Frontend/Loghmeh # Use an image built from the specified dockerfile in the `Frontend` directory.
+      context: Frontend # Use an image built from the specified dockerfile in the `Frontend` directory.
       dockerfile: Dockerfile
     ports:
       - "80:80" # Map the exposed port 80 on the container to port 9090 on the host machine
